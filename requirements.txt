@@ -1,0 +1,15 @@
+transformers==4.30.0
+pslpython==2.3.3
+yacs==0.1.8
+open3d
+ollama
+scikit-image
+scikit-learn
+scikit-fmm
+pandas
+omegaconf
+nltk
+inflect
+einops
+prettytable
+ftfy

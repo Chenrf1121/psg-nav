@@ -1,0 +1,24 @@
+# Ignore large data and model directories
+data/
+GLIP/
+Llama-3___2-11B-Vision-Instruct/
+logs/
+
+# Python cache and environment files
+__pycache__/
+*.pyc
+.env
+venv/
+*.egg-info/
+evaluation_results/
+episode_000000/
+# Ignore specific large files if any (example)
+# rabbit.jpg is small, but if you had a large one:
+# large_asset.jpg
+
+# OS-specific files
+.DS_Store
+
+# for Shared Object
+*.so
+*.so.*

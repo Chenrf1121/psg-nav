@@ -1,0 +1,18 @@
+# Scene-specific disk radius configuration
+# Format: scene_id disk_radius
+# Or: scene_id/episode_id disk_radius
+# Lines starting with # are comments
+
+# 你可以使用友好名称（如scene_002）或实际编码（如6s7QHgap2fW）
+# 友好名称映射定义在 utils/map_manager.py 的 scene_name_mapping 中
+
+# Examples:
+# RoyxdfgMDEo 1
+# 6s7QHgap2fW/0 1
+# scene_002/0 1
+
+# 实际配置（使用友好名称，更易读）
+scene_002/0 1
+scene_002/2 1
+scene_002/45 1
+# scene_013/0 3
